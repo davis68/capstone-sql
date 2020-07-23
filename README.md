@@ -36,6 +36,17 @@ You should summarize the devices involved (such as `OWER`), and the data collect
 
 You should report on aggregate data as well:  median value and range per hour and per week.
 
-Finally, export the data and produce plots of the data.  You can use any tool to plot the data after you extract the data using SQL.
+Finally, export the data and produce plots of the data.  You can use any tool to plot the data after you extract the data using SQL.  You should be able to output the appropriate fields from your database by reasoning analogically from this snippet of code (which is based on a different database):
+
+```sql
+.headers on
+.mode csv
+.output data.csv
+SELECT customerid,
+       firstname,
+       lastname,
+       company
+FROM customers;
+```
 
 Your report should briefly describe each of these steps, summarize the data in an accessible format, and include an appendix with the necessary SQL code.
