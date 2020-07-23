@@ -22,7 +22,7 @@ A quality tag reports on how good the data are considered by the device, and thi
 
 You should fork this project.  We expect you to work on a copy of the database and produce a short report.
 
-First, you should analyze the data set and determine the range and behavior of values.  You should change `VARCHAR` or `TEXT` fields to a more appropriate type, for dates/times or numeric values.  For each numeric field, what is the actual range, mean, median, and standard deviation?  For each text field, what are the possible values?
+First, you should analyze the data set and determine the range and behavior of values.  For operations, you can cast `VARCHAR` or `TEXT` fields to a more appropriate type, for dates/times or numeric values (`REAL` or `INTEGER`).  For each numeric field, what is the actual range, mean, median, and standard deviation?  For each text field, what are the possible values?
 
 You should check for any:
 
