@@ -6,7 +6,7 @@ This capstone project is built around using SQL to explore a data set describing
 
 ## Development
 
-Phasor measurement units record electrical supply and usage characteristics at the end user, such as frequency, voltage, and amperage.  You have available in the compressed file `pmu-data.tar.gz` a collection of CSV files which contain readings taken between 1:46 p.m. on April 21, 2014, and 7:20 a.m. on April 22, 2014.  Since the device is sampling ten times a second, there are 632,540 time samples with 30–46 recorded values at each time step.
+Phasor measurement units record electrical supply and usage characteristics at the end user, such as frequency, voltage, and amperage.  You have available (in the database file [`pmu.db`](./pmu.db) readings taken between 1:46 p.m. on April 21, 2014, and 7:20 a.m. on April 22, 2014.  Since the device is sampling ten times a second, there are 632,540 time samples with 30–46 recorded values at each time step.
 
 Each data measurement has a tag describing its date and time (the record or row) and its `LOCATION:TYPE` along with a quality tag.  The types are as follows:
 
